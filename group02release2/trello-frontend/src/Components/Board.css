@@ -1,0 +1,41 @@
+.board{
+  max-height: 100%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.board_title {
+  display: flex ;
+}
+.board_top {
+  position: relative;
+}
+
+.deleteBoard{
+  background-color: white;
+  width: 105px;
+  padding:10px;
+}
+
+.board_title_pic {
+  flex:1;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.board_cards {
+  background-color:lightgray;
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 10px;
+  overflow-y: auto;
+  height: 100%
+}
+
+

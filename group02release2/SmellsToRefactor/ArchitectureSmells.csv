@@ -1,0 +1,3 @@
+Project Name,Package Name,Architecture Smell,Cause of the Smell
+trello_backend,_G02.trello.board.service,Unstable Dependency,The tool detected the smell in this component because this component depends on other components that are less stable than itself. This component depends on following less stable component(s): _G02.trello.task.service
+trello_backend,_G02.trello,Feature Concentration,The tool detected the smell in this component because the component realizes more than one architectural concern/feature. Independent sets of related classes within this component are: [TrelloBackendApplication]; [BoardServiceTest]; [TaskServiceTest]; [TrelloBackendApplicationTests]; [UserServiceTest]; [WorkspaceServiceTest]. LCC (Lack of Component Cohesion) = 1.0

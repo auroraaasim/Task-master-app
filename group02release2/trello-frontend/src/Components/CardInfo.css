@@ -1,0 +1,84 @@
+.cardinfo {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 550px;
+    width: fit-content;
+    max-width: 650px;
+    height: fit-content;
+  }
+
+
+  .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+  }
+
+  .progress-bar {
+    width: 100%;
+    border-radius: 30px;
+    height: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .progress {
+    height: 100%;
+    border-radius: 30px;
+    background-color: skyblue;
+    width: 0;
+    transition: 200ms;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .status {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .status label {
+    border-radius: 40px;
+    background-color: gray;
+    color: #fff;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .status label svg {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+  }
+
+  .container ul {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+  }
+  .container ul li {
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .container ul .li_active {
+    box-shadow: 0 0 0 3px yellow;
+  }
+  

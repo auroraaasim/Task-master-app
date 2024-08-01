@@ -1,0 +1,48 @@
+.addCard{
+    width: 100%;
+
+}
+
+.editable_show{
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 3px
+    
+}
+.editable_show:hover{
+    background-color: #ccc;
+
+}
+
+.editable {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.editable input{
+    padding:10px;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1em;
+}
+
+.editable_edit {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.editable_edit button {
+    padding:8px 16px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: gray;
+    transition: 200ms;
+    
+}
+
+.editable_edit button:hover{
+    background-color: green;
+}

@@ -1,0 +1,12 @@
+.task {
+    font-size: 14px;
+    display: flex;
+    gap:5px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+  
+    
+}
+
